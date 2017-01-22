@@ -5,7 +5,7 @@ prefix operator ⚀
 prefix func ⚀(w: [Int]) -> Int { return w[0] }
 
 prefix operator ⤚
-prefix func ⤚(w: [Int]) -> [Int] { return Array(w[1..<w.count])}
+prefix func ⤚(w: [Int]) -> [Int] { return Array(w[1..<w.count]) }
 
 infix operator ¦
 func ¦ (w: [Int], predicate: (Int)->Bool) -> [Int] { return w.filter(predicate) }
